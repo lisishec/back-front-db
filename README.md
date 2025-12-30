@@ -1,4 +1,5 @@
 # Back-Front-DB
+Explicação básica do que são cada coisa, com exemplos e comandos importantes para utilizar.
 
 # Banco de dados:
 
@@ -8,7 +9,7 @@
 
  ### Comandos importantes:
  
-
+---
 # Back-end:
 
   ### O que é:
