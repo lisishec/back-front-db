@@ -103,8 +103,10 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 # Back-end:
 
   ### O que é:
+  O back-end é a "parte de trás" de um site ou aplicativo, o "motor" que o usuário não vê, responsável pela lógica, bancos de dados, servidores e APIs, garantindo que as funcionalidades funcionem, os dados sejam armazenados e a aplicação seja segura, rápida e eficiente.
 
   ### Para que serve:
+  Receber pedidos do front end, aplicar regras de negócio, conversar com o banco de dados, mandar respostas prontas para o front. Verifica login e senha, calcula resultados, decidir quem pode acessar o que, validar dados
 
   ### Comandos importantes:
    - Const;
