@@ -108,7 +108,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
   ### Para que serve:
   Receber pedidos do front end, aplicar regras de negócio, conversar com o banco de dados, mandar respostas prontas para o front. Verifica login e senha, calcula resultados, decidir quem pode acessar o que, validar dados
 
-  ![divisor](https://static.vecteezy.com/system/resources/thumbnails/034/487/737/small/gold-frame-page-divider-free-png.png)
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
 
   ### Comandos importantes:
    - **Const**:<br>
