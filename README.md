@@ -184,7 +184,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
    - **Try / Catch**:
      Permite capturar e tratar erros durante a execução do código. Evitar que a aplicação quebre quando ocorre um erro inesperado. ss_**Quando usar?**_ Ao lidar com operações que podem falhar, como acesso a banco de dados, APIs ou código assíncrono.
 
-     ![imagem do exemplo](/exemplo_try-catch)
+     ![imagem do exemplo](./exemplo_try-catch)
      
    - **Module.exports**:<br>
      Define o que um arquivo exporta. Permite que funções, objetos ou variáveis sejam usados em outros arquivos. _**Quando usar?**_ Sempre que quiser reutilizar código em diferentes partes do projeto.
