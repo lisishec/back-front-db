@@ -144,6 +144,12 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
      Ex: se eu preciso usar o express que eu instalei, então: ```const express = require('express');```
      <br>**OU**<br>
      se eu preciso usar um arquivo do controllers no routes: ```const pedidosControllers = require('../controllers/pedidos.controller');```
+
+   - **Arrow function (=>)**:<br>
+     Define uma função de forma mais curta e moderna. Torna o código mais limpo e legível, além de lidar melhor com o contexto em muitos casos. _**Quando usar?**_ Em callbacks, funções simples ou quando quiser um código mais enxuto (muito comum em projetos atuais). O ```=>``` vem sempre depois do ```(req, res)``` no começo da função, seguido por chaves '{}'.
+
+     Ex: ```const deletar = async (req, res) => {
+     }```
      
    - **Async**:<br>
      Define que uma função é assíncrona. Permite o uso de ```await``` dentro da função e facilita o trabalho com operações que demoram (ex: banco de dados, APIs). _**Quando usar?**_ Sempre que a função depender de algo que não acontece instantaneamente. O ```async```sempre vem depois do '='. Ex: ```const funcao = async ...```
