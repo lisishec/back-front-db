@@ -191,6 +191,8 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
   _**Como posso começar a instalar as dependências?**_ Abra o terminal e digite ```npm init``` para começar o processo. Terá de preencher algumas coisas ou simplesmente deixar em branco apertando a tecla de enter. Para um processo mais rápido, basta digitar -y depos do init, como: ```npm init -y```, assim os campos serão preenchidos automáticamente.<br>
   Em seguida, basta digitar npm install e o que você deseja instalar, sendo os mais comuns e frequêntes: express, cors, mysql2, dotenv. Como: ```npm install express``` ou ```npm install mysql2```
 
+--------------------
+
   ### Server.js:
 
   ### Controllers:
