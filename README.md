@@ -174,22 +174,33 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
    - **Json**:<br>
      Envia uma resposta no formato JSON. Retorna dados estruturados para o cliente (mensagens, objetos, listas). _**Quando usar?**_ Em APIs, quando o front-end precisa receber dados do back-end.
 
-     Ex: ```res.status(200).json({"Essa mensagem vai aparecer depois de rodar o código e funcionar.})``` ou ```res.status(200).json(lista)```. O ```lista```dentro do json retorna uma lista de objetos, como: ```[{nome: cecilia}, {nome: gustavo}, {nome: marta}]```
+     Ex: `res.status(200).json({"Essa mensagem vai aparecer depois de rodar o código e funcionar.})` ou `res.status(200).json(lista)`. O `lista` dentro do json retorna uma lista de objetos, como: `[{nome: cecilia}, {nome: gustavo}, {nome: marta}]`
+
+   - **Body**:<br>
+     Contém os dados enviados peelo cliente no corpo da requisição. Receber informações mais complexas, como formulários ou objetos JSON. _**Quando usar?**_ Principalmente em requisições `POST`, `PUT` ou `PATCH`
      
    - **Params**:<br>
      Armazena parâmetros enviados pela URL. Indentificar recursos específicos (ex: ID de um usuário ou produto). _**Quando usar?**_ Quando a informação vem diretamente na rota.
 
-     Ex: quando for buscar um usuário, quero que busque por id, então na função buscarUsuário crio um parâmetro assim: ```const id = req.params.id;```, para que assim, na rota eu possa colocar, por exemplo: ```('/buscar/id'). Depois, quando for buscar pela URL, basta colocar "/buscar/" e o ID de um usuário logo após a barra.
+     Ex: quando for buscar um usuário, quero que busque por id, então na função buscarUsuário crio um parâmetro assim: `const id = req.params.id;`, para que assim, na rota eu possa colocar, por exemplo: `('/buscar/id')`. Depois, quando for buscar pela URL, basta colocar "/buscar/" e o ID de um usuário logo após a barra.
 
-   - **Try / Catch**:
-     Permite capturar e tratar erros durante a execução do código. Evitar que a aplicação quebre quando ocorre um erro inesperado. ss_**Quando usar?**_ Ao lidar com operações que podem falhar, como acesso a banco de dados, APIs ou código assíncrono.
+   - **Try / Catch**:<br>
+     Permite capturar e tratar erros durante a execução do código. Evitar que a aplicação quebre quando ocorre um erro inesperado. _**Quando usar?**_ Ao lidar com operações que podem falhar, como acesso a banco de dados, APIs ou código assíncrono.
 
      ![imagem do exemplo](https://github.com/lisismari/back-front-db/blob/main/exemplo%20try-catch.png?raw=true)
+
+   - **Query**:<br>
+     Armazena parâmetros enviados pela URL após o '?'. Recebe filtros, buscar ou informações opcionais do cliente. _**Quando usar?**_ Quando os dados não fazem parte da rota em si, mas ajudam a refinar uma requisição. O `query` vem depois do nome que você deu a função que usa o banco de dados (isso deve ter sido feito no começo do código.
+
+     Ex: `const db = require('link do arquivo da pasta data, onde o banco de dados está')` para que você possa usar em uma função, eventualmente, `await db.query`
      
    - **Module.exports**:<br>
      Define o que um arquivo exporta. Permite que funções, objetos ou variáveis sejam usados em outros arquivos. _**Quando usar?**_ Sempre que quiser reutilizar código em diferentes partes do projeto.
 
      Ex: no final de um código em algum arquivo controller, você normalmente verá ```module.exports = { cadastrar, buscar, atualizar }```, o que quer dizer que as funções que estão dentro do module.exposts foram exportadas e poderão ser utilizadas nas rotas.
+
+   - **Return**:<br>
+     Encerra a execução de uma função e devolve um valor. Envia um resultado para quem chamou a função. _**Quando usar?**_ Sempre que uma função precisar produzir algum resultado ou resposta.
 
 ---
   ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
@@ -201,16 +212,6 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
   _**Como posso começar a instalar as dependências?**_ Abra o terminal e digite ```npm init``` para começar o processo. Terá de preencher algumas coisas ou simplesmente deixar em branco apertando a tecla de enter. Para um processo mais rápido, basta digitar -y depos do init, como: ```npm init -y```, assim os campos serão preenchidos automáticamente.<br>
   Em seguida, basta digitar npm install e o que você deseja instalar, sendo os mais comuns e frequêntes: express, cors, mysql2, dotenv. Como: ```npm install express``` ou ```npm install mysql2```
-
---------------------
-
-  ### Server.js:
-
-  ### Controllers:
-
-  ### Data:
-
-  ### Routes:
   
 ---
   ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
