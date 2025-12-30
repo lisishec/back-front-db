@@ -11,12 +11,15 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
  ### Comandos importantes:
   - Criar database:
+    
     CREATE DATABASE [nome da database];
     
   - Deletar database:
+    
     DROP DATABASE [nome da database] IF EXISTS;
 
   - Criar tabela:
+    
     CREATE TABLE [nome da tabela] (
       infos
     )
