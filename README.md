@@ -20,6 +20,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     CREATE TABLE [nome da tabela] (
       infos
     )
+    
     Ex: ```CREATE TABLE usuarios (
       nome VARCHAR(100),
       idade INT
