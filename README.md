@@ -9,6 +9,21 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
  ### Exemplos de banco de dados:
  MySQL, PostgreSQL, SQLite, MongoBD
 
+ ### Tipos de dados:
+  - INT/INTEGER:
+
+  - DECIMAL:
+
+  - FLOAT:
+
+  - VARCHAR:
+
+  - DATE:
+
+  - TIME:
+
+  - DATETIME:
+
  ### Comandos importantes:
   - Criar database:
     <br>CREATE DATABASE [nome da database];
