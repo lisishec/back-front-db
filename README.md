@@ -9,6 +9,11 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
  ### Exemplos de banco de dados:
  MySQL, PostgreSQL, SQLite, MongoBD
 
+ ---
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
+
+---
+
  ### Tipos de dados:
   - **INT/INTEGER**:
     <br>Números inteiros
@@ -30,6 +35,11 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
   - **DATETIME**:
     Data e hora, em sequência (AAAA-MM-DD HH:MM:SS)
+
+---
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
+
+---
 
  ### Comandos importantes:
   - **Criar database**:
@@ -98,7 +108,9 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     ```SELECT p.nome AS Nome_do_produto, pe.data AS Data_do_pedido FROM produtos p INNER JOIN pedidos pe ON p.id = pe.id_produto;```
 
     --> Isso vai fazer com que retorne duas colunas, o ```Nome_do_produto``` e o ```Data_do_pedido```, mostrando todos os produtos e as datas em que foram feito os pedidos dos tais produtos
- 
+ ---
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
+
 ---
 # Back-end:
 
@@ -108,9 +120,10 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
   ### Para que serve:
   Receber pedidos do front end, aplicar regras de negócio, conversar com o banco de dados, mandar respostas prontas para o front. Verifica login e senha, calcula resultados, decidir quem pode acessar o que, validar dados
   
-
+---
   ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
 
+---
 
   ### Comandos importantes:
    - **Const**:<br>
@@ -162,6 +175,10 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
      Ex: no final de um código em algum arquivo controller, você normalmente verá ```module.exports = { cadastrar, buscar, atualizar }```, o que quer dizer que as funções que estão dentro do module.exposts foram exportadas e poderão ser utilizadas nas rotas.
 
+---
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
+
+---
 
   ### Baixar dependências:
   Este é um passo muito importante parao código, já que não adiantará de nada ter colocado um "require express" sendo que você não o instalou antes de rodas o código.
@@ -176,6 +193,9 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
   ### Data:
 
   ### Routes:
+  
+---
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
 
 ---
 # Front-end:
