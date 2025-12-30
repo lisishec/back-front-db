@@ -95,10 +95,8 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
   - **Combinar linhas de tabelas diferentes**:
     <br>No começo, entender o inner join parece difícil, mas aprende-lo ajuda a retornar informações mais específicas. A função do ```INNER JOIN``` no SQL é combinar linhas de duas ou mais tabelas, retornando apenas os registros que possuem valores correspondentes em uma coluna comum em todas as tabelas envolvidas, criando uma "interseção" de dados para apresentar informações relacionadas de diferentes fontes de forma unificada.
     <br>Veja melhor no vídeo [aqui](https://youtu.be/dYM1ATLVtAg?si=mTEV9Fu_SkkDDv5R&t=127).
-    <br>Sintaxe básica: ```t1.nome_coluna, t2.nome_coluna AS coluna2...
-    FROM tabela1 t1
-    INNER JOIN tabela2 t2
-    ON t1.coluna_chave_t1 = t2.coluna_chave_t2;```
+    <br><br>
+    Sintaxe básica: ![imagem da sintaxe]()
 
     **Explicação dos componentes**:
     <br>  ```SELECT colunas```: Define quais colunas você quer ver no resultado final;
