@@ -1,14 +1,15 @@
 # Back-Front-DB
 
-## Banco de dados:
+# Banco de dados:
 
  ### Função:
 
  ### Exemplos de banco de dados:
 
  ### Comandos importantes:
+ 
 
-## Back-end:
+# Back-end:
 
   ### O que é:
 
@@ -16,4 +17,4 @@
 
   ### Comandos importantes:
 
-## Front-end:
+# Front-end:
