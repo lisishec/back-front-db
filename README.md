@@ -18,4 +18,5 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
   ### Comandos importantes:
 
+---
 # Front-end:
