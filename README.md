@@ -33,7 +33,8 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
     DROP TABLE [nome da database];
 
-  - Alterar tabela:  ```ALTER TABLE```  \\Utilizado para alterar sem precisar apagar o código apenas para colocar de novo com tudo corrigido; poupa tempo se tiver que alterar 2-3 colunas, tabelas, etc.
+  - Alterar tabela:  ```ALTER TABLE```
+    \\Utilizado para alterar sem precisar apagar o código apenas para colocar de novo com tudo corrigido; poupa tempo se tiver que alterar 2-3 colunas, tabelas, etc.
 
     - Adicionar coluna:
 
