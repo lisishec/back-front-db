@@ -180,6 +180,15 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
      Armazena parâmetros enviados pela URL. Indentificar recursos específicos (ex: ID de um usuário ou produto). _**Quando usar?**_ Quando a informação vem diretamente na rota.
 
      Ex: quando for buscar um usuário, quero que busque por id, então na função buscarUsuário crio um parâmetro assim: ```const id = req.params.id;```, para que assim, na rota eu possa colocar, por exemplo: ```('/buscar/id'). Depois, quando for buscar pela URL, basta colocar "/buscar/" e o ID de um usuário logo após a barra.
+
+   - **Try / Catch**:
+     Permite capturar e tratar erros durante a execução do código. Evitar que a aplicação quebre quando ocorre um erro inesperado. _**Quando usar?**_ Ao lidar com operações que podem falhar, como acesso a banco de dados, APIs ou código assíncrono.
+
+     Ex: ```try{ const {id, nome} = req.body;  
+         await db.query('banco de dados');} 
+         catch (error){
+         console.log(error);
+         }```
      
    - **Module.exports**:<br>
      Define o que um arquivo exporta. Permite que funções, objetos ou variáveis sejam usados em outros arquivos. _**Quando usar?**_ Sempre que quiser reutilizar código em diferentes partes do projeto.
