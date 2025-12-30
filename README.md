@@ -17,8 +17,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     <br>DROP DATABASE [nome da database] IF EXISTS;
 
   - Criar tabela:
-    
-    CREATE TABLE [nome da tabela] (
+    <br>CREATE TABLE [nome da tabela] (
       infos
     )
     
@@ -28,26 +27,28 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     )```
 
   - Deletar tabela:
-
-    DROP TABLE [nome da database];
+    <br>DROP TABLE [nome da database];
 
   - Alterar tabela:  ```ALTER TABLE```<br>Utilizado para alterar sem precisar apagar o código apenas para colocar de novo com tudo corrigido; poupa tempo se tiver que alterar 2-3 colunas, tabelas, etc.
 
     - Adicionar coluna:
-
-       ALTER TABLE [nome da tabela] ADD [nome da coluna] [tipo de dado];
+      <br>ALTER TABLE [nome da tabela] ADD [nome da coluna] [tipo de dado];
 
        Ex: ```ALTER TABLE usuarios ADD profissao VARCHAR(100)``` 
 
     - Remover coluna:
-
-      ALTER TABLE [nome da tabela] DROP COLUMN [nome da coluna];
+      <br>ALTER TABLE [nome da tabela] DROP COLUMN [nome da coluna];
 
     - Modificar coluna:
-
-      ALTER TABLE [nome da tabela] ALTER COLUMN [nome da coluna] [tipo de dado];
+      <br>ALTER TABLE [nome da tabela] ALTER COLUMN [nome da coluna] [tipo de dado];
 
       Ex: tornar o campo “email" **obrigatório**: ```ALTER TABLE Clientes ALTER COLUMN Email VARCHAR(100) NOT NULL;```
+
+    - Renomear tabela:
+      <br>ALTER TABLE [nome da tabela] RENAME TO [novo nome];
+
+  - Ver todas as informações de uma tabela:
+    <br>SELECT * FROM [nome da tabela];
  
 ---
 # Back-end:
