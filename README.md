@@ -108,7 +108,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
   ### Para que serve:
   Receber pedidos do front end, aplicar regras de negócio, conversar com o banco de dados, mandar respostas prontas para o front. Verifica login e senha, calcula resultados, decidir quem pode acessar o que, validar dados
 
-  ![divisor](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/98ead744-a515-4ae5-acdd-bd3f8581a3d7/dgrriix-618b2aba-2a75-469d-84fc-48d241852a51.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi85OGVhZDc0NC1hNTE1LTRhZTUtYWNkZC1iZDNmODU4MWEzZDcvZGdycmlpeC02MThiMmFiYS0yYTc1LTQ2OWQtODRmYy00OGQyNDE4NTJhNTEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cbabQV918AZ5F6skPk37utgfDVW3sBWtvaESEHfCw7c)
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
 
   ### Comandos importantes:
    - **Const**:<br>
