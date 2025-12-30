@@ -1,6 +1,11 @@
 # Back-Front-DB
 Explicação básica do que são cada coisa, com exemplos e comandos importantes para utilizar.
 
+---
+  ![divisor](https://art.ngfiles.com/comments/1077000/iu_1077885_9224881.gif)
+
+---
+
 # Banco de dados:
 
  ### Função:
