@@ -21,8 +21,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
       infos
     )
     
-    Ex: ```
-    CREATE TABLE usuarios (
+    Ex: ```CREATE TABLE usuarios (
         nome VARCHAR(100),
         idade INT
     )```
@@ -50,6 +49,11 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 
   - Ver todas as informações de uma tabela:
     <br>SELECT * FROM [nome da tabela];
+
+  - Adicionar informações em uma tabela:
+    <br>INSERT INTO [nome da tabela] (coluna 1, coluna 2...) VALUES [valor 1, valor 2...];
+
+    Ex: ```INSERT INTO usuarios (nome, idade) VALUES ("cristina", 40);```
  
 ---
 # Back-end:
