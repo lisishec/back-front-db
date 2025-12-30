@@ -22,10 +22,10 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     )
     
     Ex: ```
-      CREATE TABLE usuarios (
+    CREATE TABLE usuarios (
         nome VARCHAR(100),
         idade INT
-      )```
+    )```
 
   - Deletar tabela:
     <br>DROP TABLE [nome da database];
