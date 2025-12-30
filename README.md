@@ -36,7 +36,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     <br>CREATE DATABASE [nome da database];
     
   - **Deletar database**:
-    <br>DROP DATABASE [nome da database] IF EXISTS;
+    <br>DROP DATABASE IF EXISTS [nome da database];
 
   - **Criar tabela**:
     <br>CREATE TABLE [nome da tabela] (
@@ -95,7 +95,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     **Exemplo prático**:
     <br> Imagine as tabelas 'produtos' e 'pedidos'
 
-    ```SELECT p.nome AS Nome do produto, pe.data AS Data do pedido FROM pedidos pe INNER JOIN p.id = pe.id_produto;```
+    ```SELECT p.nome AS Nome_do_produto, pe.data AS Data_do_pedido FROM produtos p INNER JOIN pedidos pe ON p.id = pe.id_produto;```
 
     --> Isso vai fazer com que 
  
