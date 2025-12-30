@@ -21,10 +21,11 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
       infos
     )
     
-    Ex: ```CREATE TABLE usuarios (
-      nome VARCHAR(100),
-      idade INT
-    )```
+    Ex: ```
+      CREATE TABLE usuarios (
+        nome VARCHAR(100),
+        idade INT
+      )```
 
   - Deletar tabela:
     <br>DROP TABLE [nome da database];
