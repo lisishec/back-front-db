@@ -3,6 +3,7 @@
 ## Início
 Antes de começar a fazer o server.js você deve ter feito a instalação das dependênciads, pois sem eles o programa não rodará.
 
+---
   ### Primeiras linhas
   Agora que você já viu sobre os comandos importantes, tente fazer as seguintes coisas:
   
@@ -19,16 +20,31 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     const app = express();<br>
     const port = 3000;<br>
   </details>
+---
 
   ### Continuação
   Agora tente usar o cors e o express utilizando a variável "app" que você criou antes utilizando "use" logo após.
   > A ordem não importa.
 
   > Note que quando utilizar o express, faça questão que colocar ".json" em seguida.
-  Fazer isso com que o express e o cors possam ser utilizados; sem isso não será possível.
+  Fazer isso faz com que o express e o cors possam ser utilizados; sem isso não será possível.
 
   <details>
     <summary>Correção</summary>
     app.use(cors());<br>
     app.use(express.json());
+  </details>
+---
+  
+  ### Utilizando as rotas
+  ! Essa parte só poderá ser feita após o término das routes.<br>
+  Do mesmo jeito de antes, tente fazer sozinho e depois olhe a correção. Caso tenha dúvidas, olhe as duas primeiras linhas do SEU código.
+
+  <details>
+    <summary>Correção</summary>
+    const nomeDaRota = require('link do arquivo da rota');<br>
+    app.use(nomeDaRota);<br><br>
+    Exemplo:<br><br>
+    const cRoutes = require('./src/routes/clientes.routes');<br>
+    app.use(cRoutes);
   </details>
