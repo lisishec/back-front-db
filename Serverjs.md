@@ -64,3 +64,11 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     });<br>
     Para utilizar o "port", é necessário colocar a variável dentro do parenteses
   </details>
+
+-----------------
+
+ ## Considerações finais
+ Fazer o processo várias vezes ajudará em decorar o código e logo ficará fácil de fazer.
+
+ No final, seu código deverias estar assim:
+ ![imagem do código feito]()
