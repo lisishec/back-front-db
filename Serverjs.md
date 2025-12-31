@@ -61,5 +61,5 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
       console.log("Servidor online na porta " + port);<br>
     });
 
-    Para utilizar o "port", é necessário colocar a variável dentro do parenteses
+  Para utilizar o "port", é necessário colocar a variável dentro do parenteses
   </details>
