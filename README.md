@@ -97,6 +97,7 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
     <br>Veja melhor no vídeo [aqui](https://youtu.be/dYM1ATLVtAg?si=mTEV9Fu_SkkDDv5R&t=127).
     <br><br>
     Sintaxe básica:
+    
     ![imagem da sintaxe](https://github.com/lisismari/back-front-db/blob/main/sintaxe%20INNER%20JOIN.png?raw=true)
 
     **Explicação dos componentes**:
