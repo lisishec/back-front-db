@@ -20,6 +20,7 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     const app = express();<br>
     const port = 3000;<br>
   </details>
+  
 --------------
 
   ### Continuação
@@ -34,6 +35,7 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     app.use(cors());<br>
     app.use(express.json());
   </details>
+  
 --------------
   
   ### Utilizando as rotas
