@@ -61,8 +61,6 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     <summary>Correção</summary>
     app.lsiten(port, () => {<br>
       console.log("Servidor online na porta " + port);<br>
-    });
-    
-
-  Para utilizar o "port", é necessário colocar a variável dentro do parenteses
+    });<br>
+    Para utilizar o "port", é necessário colocar a variável dentro do parenteses
   </details>
