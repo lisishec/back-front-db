@@ -22,8 +22,8 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
 
   ### Continuação
   Agora tente usar o cors e o express utilizando a variável "app" que você criou antes utilizando "use" logo após.
-    > A ordem não importa.
-    > Note que quando utilizar o express, faça questão que colocar ".json" em seguida.
+  > A ordem não importa.
+  > Note que quando utilizar o express, faça questão que colocar ".json" em seguida.
   Fazer isso com que o express e o cors possam ser utilizados; sem isso não será possível.
 
   <details>
