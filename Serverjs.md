@@ -14,8 +14,8 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
   Após tentar fazer o código, veja se está correto:<br>
   <details>
     <summary>Correção</summary>
-    const express = require('express');
-    const cors = require('cors');
-    const app = express();
-    const port = 3000;
+    const express = require('express');<br>
+    const cors = require('cors');<br>
+    const app = express();<br>
+    const port = 3000;<br>
   </details>
