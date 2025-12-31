@@ -20,7 +20,7 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     const app = express();<br>
     const port = 3000;<br>
   </details>
------------
+--------------
 
   ### Continuação
   Agora tente usar o cors e o express utilizando a variável "app" que você criou antes utilizando "use" logo após.
@@ -34,7 +34,7 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     app.use(cors());<br>
     app.use(express.json());
   </details>
------------
+--------------
   
   ### Utilizando as rotas
   ! Essa parte só poderá ser feita após o término das routes.<br>
@@ -60,6 +60,7 @@ Antes de começar a fazer o server.js você deve ter feito a instalação das de
     app.lsiten(port, () => {<br>
       console.log("Servidor online na porta " + port);<br>
     });
+    
 
   Para utilizar o "port", é necessário colocar a variável dentro do parenteses
   </details>
