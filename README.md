@@ -219,6 +219,45 @@ Explicação básica do que são cada coisa, com exemplos e comandos importantes
 ---
 # Front-end:
 
-  ### O que é:
+### Para que serve?
+O HTML (HyperText Markup Language) é uma linguagem utilizada para criar sites (front-end). É utilizado em conjunto com o back-end para ser o mais funcional possível, assim como anda de mãos dadas com o css (Cascading Style Sheets) para o visual do site.
 
-  ### Para que serve:
+### Estrutura
+O HTML é em formado de tags, que abrem e fecham, devem estar em ordens para a estrutura ficar correta. Há algumas exceções como a tag `<hr>, <br> e <img>` que não precisam ser fechadas. O HTML é o esqueleto do site, o CSS é a aparência do site, por último, o back-end é os músculos, o que faz o site realmente funcional.
+
+### Regras básicas
+Para editar a aparência do site, o arquivo de css, com qualquer nome, deve ser linkado ao HTML. Para isso, dentro da tag `<head>` no html, utilize `<link rel="stylesheet" href="[nome do arquivo].css"` para ligar o arquivo do css com o html. No VSCode, quando abrir com o Live Server, quaisquer alterações feitas no css vão aparecer no site aberto em seu navegador quando salvo.
+
+Depois de ligar o arquivo css com o html, agora você deve saber as coisas mais importantes para mexer com o css.
+
+### Regras de sintaxe
+- tag:
+Quando for alterar algum objeto do html que seja uma tag, basta escrever o nome da tag e abrir chaves. Tudo o que você quiser alterar deve vir dentro das chaves.
+```
+header {background: #ff00ff}
+```
+
+- classe:
+Quando no html você declarar uma classe em uma tag, ex: `<p class="paragrafo">`, no css, para alterar essa classe em específico, deve-se utilizar um ponto antes do nome da classe.
+```
+.paragrafo {color: #fff;}
+```
+Isso é muito útil para quando você tem algumas tags iguais, mas quer alterar a aparência apenas de um deles. <br>
+Isso tbm serve para quando você quer alterar algo dentro de uma div, mas uma div específica. Digamos que você tem uma div de classe "content" dentro de um "container", quer alterar o "content" sem alterar qualquer outra coisa dentro do "container". Ex: 
+```
+<div class="container">
+  <h2>Promoções</h2>
+  <div class="content">
+    <p>...</p>
+  </div>
+</div>
+```
+Primeiro você deve colocar o nome da classe que vem primeiro, o pai. `container`. Depois, colocar o nome da classe que vem depois, o filho. `content`.
+Em prática, o css final ficaria assim: <br>
+```
+.container .content {background-color: #000; color: #fff;}
+```
+
+- Id:
+A regra do id serve do mesmo jeito que a classe, mas ao invés do ., o id é representado como uma hashtag, `#`. <br>
+`#paragrafo {color: #00ff00;}`
