@@ -231,13 +231,13 @@ Para editar a aparência do site, o arquivo de css, com qualquer nome, deve ser 
 Depois de ligar o arquivo css com o html, agora você deve saber as coisas mais importantes para mexer com o css.
 
 ### Regras de sintaxe
-- tag:
+- Tag:
 Quando for alterar algum objeto do html que seja uma tag, basta escrever o nome da tag e abrir chaves. Tudo o que você quiser alterar deve vir dentro das chaves.
 ```
 header {background: #ff00ff}
 ```
 
-- classe:
+- Classe:
 Quando no html você declarar uma classe em uma tag, ex: `<p class="paragrafo">`, no css, para alterar essa classe em específico, deve-se utilizar um ponto antes do nome da classe.
 ```
 .paragrafo {color: #fff;}
